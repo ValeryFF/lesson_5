@@ -1,0 +1,295 @@
+@import url('fonts.css');
+@import url('null.css');
+
+
+.wrapper {
+	border: 5px solid #155B92;
+	background-color: #2C8182;
+	max-width: 100%;
+}
+
+/*===== block ===========================================================================*/
+.block {
+	background-color: rgb(31, 165, 4);
+	border: 2px solid rgb(245, 3, 3);
+	max-width: 800px;
+	color: #fff;
+	
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.block-title {
+	font-family: 'Helvetica';
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+}
+
+.block-text {
+	font-family: 'Comfortaa';
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+	.color-red {
+	color:rgb(240, 224, 8);
+	line-height: 40px;
+}
+
+.text-block {
+	text-align: justify;
+}
+
+/*====== block-2 ==================================================================*/
+.block-2 {
+	background-color: rgb(78, 10, 238);
+	border: 2px solid rgb(6, 238, 199);
+	max-width: 100%;
+	min-width: 300px;
+	
+	text-align: justify;
+	color: #fff;
+	
+	margin: 10px 20px;
+	padding: 10px 20px;
+}
+
+.block-2-text {
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	
+	margin-bottom: 10px;
+}
+
+.color-deep {
+	color:deeppink;
+}
+
+.text-block-2 {
+	font-family: 'Grechen Fuemen', cursive;
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+/*====== block-body ==================================================================*/
+.block-body {
+	border: 5px solid #FC5404;
+	background-color: #F5F7B2;
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+}
+
+.block-body-title {
+	font-size: 70px;
+	text-align:  center;
+	padding-top: 40px;
+}
+
+/*===== block-body-text =============================================================================*/
+
+
+.block-body-title {
+	font-family: 'Rubik Beastly', cursive;
+	font-size: 50px;
+	color:#0640A7;
+	
+}
+
+.title-fonts {
+	font-size: 90px;
+	color: #5D3E27;
+}
+
+
+.block-body-text {
+	font-family: 'Bonheur Royale', cursive;
+	background-color: rgba(255, 243, 56, 0.3);
+	border: 5px solid rgb(33, 240, 6);
+	max-width: 1390px;
+	min-height: 400px;
+	font-size: 30px;
+	margin: -200px 8px 20px 11px;
+	padding: 10px 20px 10px 20px;
+}
+
+.text-style {
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	line-height: 54px;
+	color: #10772C;
+}
+
+.mg {
+	color:tomato;
+}
+
+/*===== height =======================================================================================*/
+.height {
+	background-color: #FFD498;
+	border: 3px solid #E94B25;
+	max-width: 800px;
+	max-height: 300px;
+	overflow: auto; /* появляется полоса прокрутки */
+	
+	margin: 0 auto 90px auto;
+	padding: 10px 50px 10px 50px;
+
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+} 
+
+/*===== inline-block =====================================================================================*/
+.block-inline {
+	background-color: #FCB6D8;
+	border: 1px solid #000;
+	max-width: 1200px;
+
+	text-align: justify;
+	font-size: 20px;
+	color:rgb(73, 40, 40);
+
+	margin: 0px auto 20px auto;
+	padding: 10px 30px 10px 30px;
+}
+
+/*===== inline ==================================================================================================*/
+.inline__text {
+	background-color: #FCB6D8;
+	border: 1px solid #000;
+	max-width: 1200px;
+	
+	text-align: justify;
+	font-size: 20px;
+	color:rgb(73, 40, 40);
+
+	margin: 0 auto;
+	padding: 10px 30px 10px 30px;
+}
+
+.inline-color {
+	font-size: 25px;
+	line-height: 40px;
+	color:rgb(248, 248, 248)
+}
+
+
+
+/*============================================================================================*/
+.block-img {
+	background-color: #BF795E;
+	border: 3px solid #D12AD3;
+	width: 100%;
+	min-height: 450px;
+	margin: 100px 0px 100px 0px;
+}
+
+.images__inner {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.images {
+	margin-right: 10px;
+}
+
+/*===== link =====================================================================================*/
+.block-link {
+	background-color: #426513;
+	border: 3px solid #D12AD3;
+	max-width: 100%;
+	min-height: 200px;
+	margin-bottom: 60px;
+}
+
+.link {
+	border: 2px solid rgb(47, 143, 2);
+	height: 60px;
+	font-size: 35px;
+	color: red;
+	
+	display: block;
+	margin: 10px 0px 10px 0px;
+	padding: 8px;
+	
+}
+
+.link-inner {
+	margin: 20px 0px;
+	display: block;
+}
+
+.block-link__inline {
+	margin: 40px;
+	text-align: center;
+}
+
+.link-inline {
+	border: 5px solid rgb(129, 1, 1);
+	font-size: 30px;
+	margin-right: 30px;
+	padding: 10px;
+	color: #F2A268;
+}
+
+/*====================================================================================*/
+.column{
+	font-family: 'Montserrat';
+	background-color: #afbb74;
+	border: 2px solid rgb(109, 1, 103);
+	font-size: 35px;
+	min-height: 60px;
+	display: block;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/*====================================================================================*/
+.block__inline-block {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.text, .text-tet, .text-text-2 {
+	background-color: #D2B88F;
+	border: 2px solid rgb(170, 7, 1);
+	max-width: 200px;
+	min-height: 200px;
+	
+	display: inline-block;
+	padding: 15px;
+	margin: 0px 10px 60px 0px;
+}
+
+.paragraph-block {
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+.paragraph {
+	background-color: #E0D3B1;
+	border: 2px solid rgb(180, 5, 43);
+	max-width: 100px;
+	
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 0px 60px 30px
+	
+}
+
+
+
+
+
+
